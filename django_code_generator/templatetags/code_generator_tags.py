@@ -1,9 +1,8 @@
 from django import template
 from django.utils.safestring import mark_safe
-from config.settings.base import APPS_DIR
 
 register = template.Library()
-project = str(APPS_DIR).split("/")[-1]
+project = "" # Add your django project name
 
 
 @register.simple_tag()

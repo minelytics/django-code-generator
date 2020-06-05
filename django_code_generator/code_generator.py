@@ -1,11 +1,10 @@
 import os
 from django.template import Context, Engine
 
-from config.settings.base import APPS_DIR
 from .models import Models
 
 CRUD_BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-project = str(APPS_DIR).split("/")[-1]
+project = "" # Add your django project name
 
 
 class CodeGenerator:
@@ -14,11 +13,12 @@ class CodeGenerator:
         self.template = template
 
     def output(self):
+        """Prints out the generated code"""
         engine = Engine(
             debug=True,
             dirs=[os.path.join(CRUD_BASE_DIR, "templates")],
             libraries={
-                'crud_generator_tags': project + ".generator.workflow.crud_generator.templatetags.crud_generator_tags"
+                'code_generator_tags': "templatetags.code_generator_tags"
             }
         )
 

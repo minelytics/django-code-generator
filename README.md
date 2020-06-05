@@ -5,4 +5,4 @@ A python module which generate the django code. Useful for generating django-res
 
 Command usage:
 
-$ docker-compose -f local.yml run --rm django python manage.py crud_generator <app_name> <template_name>
+$ docker-compose -f local.yml run --rm django python manage.py code_generator <app_name> <template_name>

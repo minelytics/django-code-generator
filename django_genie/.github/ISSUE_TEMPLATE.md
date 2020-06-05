@@ -1,4 +1,4 @@
-* django-generator version:
+* django-genie version:
 * Python version:
 * Operating System:
 

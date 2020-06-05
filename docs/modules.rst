@@ -1,14 +1,14 @@
 
-django_generator package
+django_genie package
 =============================
 
 Submodules
 ----------
 
-django_generator\.models module
+django_genie\.models module
 ------------------------------------
 
-.. automodule:: django_generator.models
+.. automodule:: django_genie.models
     :members:
     :undoc-members:
     :show-inheritance:
@@ -16,10 +16,10 @@ django_generator\.models module
 
 .. _code_generator_tags:
 
-django_generator\.templatetags\.generator_tags module
+django_genie\.templatetags\.generator_tags module
 ---------------------------------------------------------------
 
-.. automodule:: django_generator.templatetags.generator_tags
+.. automodule:: django_genie.templatetags.generator_tags
     :members:
     :undoc-members:
     :show-inheritance:

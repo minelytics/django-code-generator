@@ -1,6 +1,6 @@
 from django.core.management.base import BaseCommand
 
-from django_generator.code_generator import CodeGenerator
+from django_genie.code_generator import CodeGenerator
 
 
 class Command(BaseCommand):

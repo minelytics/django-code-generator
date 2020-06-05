@@ -1,5 +1,5 @@
-# django-code-generator
-Based on django-code-generator https://github.com/Nekmo/django-code-generator
+# django-genie
+Based on django-genie https://github.com/Minelytics/django-genie
 
 A python module which generate the django code. Useful for generating django-rest-framework code. Prints out the code in console for simple copy paste where its required. It uses templates for code generation which can be customized.
 

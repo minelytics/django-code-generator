@@ -4,7 +4,6 @@ from django.template import Context, Engine
 from .models import Models
 
 CRUD_BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-project = "" # Add your django project name
 
 
 class CodeGenerator:
@@ -18,7 +17,7 @@ class CodeGenerator:
             debug=True,
             dirs=[os.path.join(CRUD_BASE_DIR, "templates")],
             libraries={
-                'code_generator_tags': "templatetags.code_generator_tags"
+                'code_generator_tags': "django_genie.templatetags.code_generator_tags"
             }
         )
 

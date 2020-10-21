@@ -1,4 +1,4 @@
-* django-genie version:
+* django_genie version:
 * Python version:
 * Operating System:
 

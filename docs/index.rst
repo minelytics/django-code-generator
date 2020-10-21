@@ -3,11 +3,11 @@ Django Generator documentation
 Generate code from Django models for faster development. This project can generate a Django Rest Framework API or an
 admin for your app. You can also create your own templates so you can generate code for whatever you want.
 
-To **install** django-genie, run this command in your terminal:
+To **install** django_genie, run this command in your terminal:
 
 .. code-block:: console
 
-    $ pip install django-genie
+    $ pip install django_genie
 
 
 Contents

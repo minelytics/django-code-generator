@@ -13,10 +13,10 @@ from setuptools import setup, find_packages, __version__ as setuptool_version
 
 AUTHOR = "Minelytics Technologies"
 EMAIL = 'dev@minelytics.in'
-URL = 'https://github.com/minelytics/django-genie/'
+URL = 'https://github.com/minelytics/django_genie/'
 
-PACKAGE_NAME = 'django-genie'
-PACKAGE_DOWNLOAD_URL = 'https://github.com/minelytics/django-genie/archive/master.zip'
+PACKAGE_NAME = 'django_genie'
+PACKAGE_DOWNLOAD_URL = 'https://github.com/minelytics/django_genie/archive/master.zip'
 MODULE = 'django_genie'
 REQUIREMENTS_FILES = [
     {'name': 'common-requirements.txt'},
@@ -24,7 +24,7 @@ REQUIREMENTS_FILES = [
     {'name': 'py3-requirements.txt', 'marker': 'python_version>"3.0"', "include": sys.version_info > (3,0)},
 ]
 STATUS_LEVEL = 5  # 1:Planning 2:Pre-Alpha 3:Alpha 4:Beta 5:Production/Stable 6:Mature 7:Inactive
-KEYWORDS = ['django-genie']
+KEYWORDS = ['django_genie']
 LICENSE = 'MIT license'
 
 CLASSIFIERS = [  # https://github.com/github/choosealicense.com/tree/gh-pages/_licenses

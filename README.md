@@ -1,4 +1,4 @@
-# django-genie
+# django_genie
 Based on [django-code-generator]
 
 A customizable python package for generating django and DRF(django rest framework) code.
@@ -6,7 +6,7 @@ Useful for generating CRUD(Create, Read, Update, Delete) code from models when t
 
 Installation
     
-    $ pip install django-genie
+    $ pip install django_genie
 
 Or add the package to requirements.txt which installs it to a docker container.
 

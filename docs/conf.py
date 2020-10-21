@@ -139,13 +139,13 @@ html_theme_options = {
     'logo': 'logo.png',
     'description': 'Generate code from Django for faster development',
     'github_user': 'Minelytics',
-    'github_repo': 'django-genie',
+    'github_repo': 'django_genie',
     'github_type': 'star',
     'github_banner': True,
     'travis_button': True,
     'codecov_button': True,
     'analytics_id': 'UA-62276079-1',
-    'canonical_url': 'https://github.com/minelytics/django-genie/'
+    'canonical_url': 'https://github.com/minelytics/django_genie/'
 }
 
 

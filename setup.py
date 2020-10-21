@@ -9,14 +9,14 @@ from setuptools import setup, find_packages
 
 AUTHOR = "Minelytics Technologies"
 EMAIL = 'dev@minelytics.in'
-URL = 'https://github.com/minelytics/django-genie/'
+URL = 'https://github.com/minelytics/django_genie/'
 
-PACKAGE_NAME = 'django-genie'
-PACKAGE_DOWNLOAD_URL = 'https://github.com/minelytics/django-genie/archive/master.zip'
+PACKAGE_NAME = 'django_genie'
+PACKAGE_DOWNLOAD_URL = 'https://github.com/minelytics/django_genie/archive/master.zip'
 MODULE = 'django_genie'
 REQUIREMENT_FILE = 'requirements.txt'
 STATUS_LEVEL = 3  # 1:Planning 2:Pre-Alpha 3:Alpha 4:Beta 5:Production/Stable 6:Mature 7:Inactive
-KEYWORDS = ['django-genie']
+KEYWORDS = ['django_genie']
 LICENSE = 'MIT license'
 
 CLASSIFIERS = [  # https://github.com/github/choosealicense.com/tree/gh-pages/_licenses
